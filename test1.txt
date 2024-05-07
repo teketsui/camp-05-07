@@ -1,0 +1,7 @@
+S = int(input())
+N = list(map(int, input().split(" ")))
+
+if S == len(set(N)):
+    print("YES")
+else:
+    print("NO")
