@@ -1,0 +1,10 @@
+S = "m" + input()
+
+T = "drmfslc"
+
+U = 0
+
+for i in range(len(S)-1):
+    I = abs(int(T.find(S[i+1])) - int(T.find(S[i]))) + 1
+    U += I
+print(U)
